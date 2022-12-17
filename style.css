@@ -26,13 +26,13 @@ header {
   height: 100%;
 }
 
-div.content {
+.content {
   position: absolute;
   left: 310px;
   top: 93.23px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
 }
 
 .collapse {
