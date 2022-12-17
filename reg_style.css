@@ -1,0 +1,65 @@
+.big_box {
+  position: absolute;
+  width: 1098px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(142, 142, 142, 0.3);
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.title {
+  text-align: center;
+  font-weight: 400;
+  font-size: 110px;
+  line-height: 133px;
+}
+
+label {
+  /* position: absolute; */
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 35px;
+  font-weight: 400;
+  padding-left: 17px;
+  margin-bottom: 30px;
+
+  /* padding-right: 70px; */
+  /* left: -247.71px; */
+}
+
+.text1 {
+  position: absolute;
+  width: 778.33px;
+  height: 59px;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 35px;
+  left: 264.43px;
+}
+
+::placeholder {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 35px;
+}
+
+.checkBox {
+  position: absolute;
+  width: 53px;
+  height: 53px;
+  border-radius: 4px;
+  left: 1010px;
+}
+
+.Register {
+  width: 610px;
+  height: 66px;
+  background-color: rgba(0, 149, 246, 0.3);
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 18px;
+  color: #faf3f3;
+}
