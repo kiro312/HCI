@@ -44,12 +44,16 @@ header {
   align-items: center;
   text-align: left;
   margin-right: 50px;
+  margin-bottom: 60px;
 }
 
 .item-image {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  height: 224px;
+  width: 215px;
+  margin-bottom: 5px;
 }
 
 .item-name {

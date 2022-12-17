@@ -1,0 +1,142 @@
+<html>
+  <head>
+    <title>HIS</title>
+    <link href="style.css" rel="stylesheet" />
+    <link href="sidebars.css" rel="stylesheet" />
+    <link href="/bootstrap/bootstrap.min.css" rel="stylesheet" />
+    <script src="sidebars.js"></script>
+    <script src="/bootstrap/bootstrap.bundle.min.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <div>
+        <div style="font-size: 48px; line-height: 40px">HIS</div>
+      </div>
+      <a href="index.html">
+        <button
+          style="
+            background-color: white;
+            font-size: 20px;
+            line-height: 28px;
+            border-color: rgba(27, 78, 163, 0.2);
+            box-shadow: 0px 2px 4px rgba(27, 78, 163, 0.2),
+              0px 4px 8px rgba(41, 121, 255, 0.2);
+            border-radius: 4px;
+            padding: 8px 12px;
+            color: #2264d1;
+          "
+        >
+          Logout
+        </button>
+      </a>
+
+      <div>
+        <input
+          style="width: 500px"
+          class="form-control"
+          type="text"
+          placeholder="Search"
+          aria-label="Search"
+        />
+      </div>
+      <a href="cart.html">
+        <button
+          style="
+            background-color: white;
+            font-size: 20px;
+            line-height: 28px;
+            border-color: rgba(27, 78, 163, 0.2);
+            box-shadow: 0px 2px 4px rgba(27, 78, 163, 0.2),
+              0px 4px 8px rgba(41, 121, 255, 0.2);
+            border-radius: 4px;
+            padding: 8px 12px;
+            color: #2264d1;
+            margin-right: 30px;
+          "
+        >
+          My Cart
+        </button>
+      </a>
+
+      <img
+        src="/assets/profile.webp"
+        class="rounded-circle"
+        alt="Cinque Terre"
+        height="70"
+        width="70"
+      />
+    </header>
+
+    <div class="content">
+      <div
+        class="container"
+        style="
+          position: absolute;
+          background-color: rgb(255, 255, 255);
+          padding: 20;
+          width: 89%;
+          border: 3px solid #000000;
+          left: 220px;
+          top: 100px;
+        "
+      >
+        <form method="POST" action="">
+          <label for="contact">Contact:</label>
+          <input type="text" id="contact" name="contact" required /><br />
+          <hr />
+          <label for="ship">Ship to:</label>
+          <input type="text" id="ship" name="ship" required /><br />
+          <hr />
+          <label for="method">Method:</label>
+          <input type="text" id="method" name="method" required /><br />
+        </form>
+      </div>
+      <br />
+
+      <div
+        class="container1"
+        style="
+          position: absolute;
+          background-color: rgb(255, 255, 255);
+          padding: 20px;
+          width: 89%;
+          border: 3px solid #000000;
+          left: 220px;
+          top: 350px;
+        "
+      >
+        <form method="POST" action="">
+          <label for="payment">Payment using visa</label>
+          <input type="radio" id="html" name="fav_language" value="HTML" />
+
+          <hr />
+
+          <label for="payment">Payment Cash</label>
+          <input type="radio" id="css" name="fav_language" value="CSS" />
+        </form>
+      </div>
+      <br />
+
+      <button
+        style="
+          position: relative;
+          background-color: #008cba;
+          border: none;
+          color: white;
+          padding: 15px 32px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+          margin: 4px 2px;
+          cursor: pointer;
+          left: 160px;
+          top: 550px;
+        "
+      >
+        Confirm
+      </button>
+    </div>
+  </body>
+</html>
