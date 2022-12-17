@@ -6,6 +6,11 @@
     <link href="/bootstrap/bootstrap.min.css" rel="stylesheet" />
     <script src="sidebars.js"></script>
     <script src="/bootstrap/bootstrap.bundle.min.js"></script>
+    <script>
+      function showAlert() {
+        alert("Your Order Will be deliverd soon");
+      }
+    </script>
   </head>
 
   <body>
@@ -59,13 +64,14 @@
         </button>
       </a>
 
-      <img
-        src="/assets/profile.webp"
-        class="rounded-circle"
-        alt="Cinque Terre"
-        height="70"
-        width="70"
-      />
+      <a href="profile.html"
+        ><img
+          src="/assets/profile.webp"
+          class="rounded-circle"
+          alt="Cinque Terre"
+          height="70"
+          width="70"
+      /></a>
     </header>
 
     <div class="content">
@@ -134,6 +140,7 @@
           left: 160px;
           top: 550px;
         "
+        onclick="showAlert()"
       >
         Confirm
       </button>
