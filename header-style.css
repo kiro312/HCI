@@ -1,0 +1,19 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+header {
+  /* font-size: 25px; */
+  font-weight: bold;
+  background-color: #ebf2ff;
+  color: black;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 5px;
+  z-index: 999;
+}
