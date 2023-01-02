@@ -54,3 +54,10 @@ function register() {
     alert("all attriputes is requierd ");
   }
 }
+
+function points() {
+  alert("your points is zero, make order to increase ");
+}
+function pointsFull() {
+  alert("your points is 5, you can redeem it");
+}
