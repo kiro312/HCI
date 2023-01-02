@@ -1,0 +1,191 @@
+<html>
+
+<head>
+
+    <link href="header-style.css" rel="stylesheet" type="text/css" />
+    <link href="/bootstrap/bootstrap.min.css" rel="stylesheet" />
+    <script src="/bootstrap/bootstrap.bundle.min.js"></script>
+
+    <style>
+        .box {
+            position: absolute;
+            top: 8%;
+            left: 25%;
+        }
+
+        .content {
+            position: absolute;
+            display: grid;
+            width: 1295px;
+            height: 888px;
+            left: 71px;
+            top: 207px;
+        }
+
+        ::placeholder {
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 28px;
+            text-align: left;
+            color: #858585;
+            justify-content: left;
+        }
+
+        .textinput {
+            position: absolute;
+            left: 148px;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 28px;
+            justify-content: left;
+            color: #858585;
+            text-align: left;
+            padding-left: 10px;
+            width: 597.79px;
+            height: 88.73px;
+        }
+
+        label {
+            font-weight: 600;
+            font-size: 26px;
+            line-height: 30px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <div>
+            <div style="font-size: 48px; line-height: 40px">HIS</div>
+        </div>
+
+        <a href="index.html">
+            <button style="
+            background-color: white;
+            font-size: 20px;
+            line-height: 28px;
+            border-color: rgba(27, 78, 163, 0.2);
+            box-shadow: 0px 2px 4px rgba(27, 78, 163, 0.2),
+              0px 4px 8px rgba(41, 121, 255, 0.2);
+            border-radius: 4px;
+            padding: 8px 12px;
+            color: #2264d1;
+          ">
+                Logout
+            </button></a>
+        <div>
+            <input style="width: 500px" class="form-control" type="text" placeholder="Search" aria-label="Search" />
+        </div>
+        <a href="cart.html">
+            <button style="
+            background-color: white;
+            font-size: 20px;
+            line-height: 28px;
+            border-color: rgba(27, 78, 163, 0.2);
+            box-shadow: 0px 2px 4px rgba(27, 78, 163, 0.2),
+              0px 4px 8px rgba(41, 121, 255, 0.2);
+            border-radius: 4px;
+            padding: 8px 12px;
+            color: #2264d1;
+            margin-right: 30px;
+          ">
+                My Cart
+            </button></a>
+        <a href="profile.html"><img src="/assets/profile.webp" class="rounded-circle" alt="Cinque Terre" height="70"
+                width="70" /></a>
+    </header>
+    <div style="
+        width: 100%;
+        text-align: center;
+        font-weight: 800;
+        font-size: 96px;
+        line-height: 22px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+      ">
+        Contact Us
+    </div>
+    <div class="box">
+        <div class="content">
+
+
+            <div>
+
+                <label for="Name">Full Name</label>
+                <input type="text" class="textinput" id="Name" placeholder="Full Name">
+
+            </div>
+            <div> <label for="Email">Email</label>
+                <input type="email" class="textinput" id="Email" placeholder="Email">
+            </div>
+            <div> <label for="Subject">Subject</label>
+                <input type="text" class="textinput" id="Subject" placeholder="ex/Feedback, problem with payment etc..">
+            </div>
+            <div>
+                <label for="Details">Details</label>
+
+                <textarea name="Details" id="Details" rows="10" cols="30" style="font-weight: 500;
+                position: absolute;
+                left: 148px;
+                font-size: 24px;
+                line-height: 28px;
+                justify-content: left;
+                color: #858585;
+                text-align: left;
+              
+                width: 1000px;
+                height: 250px;">
+
+                </textarea>
+            </div>
+
+            <button style="
+            position: absolute;
+            top: 950;
+    left: 148px;
+                    width: 240px;
+                    height: 66px;
+                    background-color: rgba(0, 149, 246, 0.3);
+                    font-weight: 600;
+                    font-size: 40px;
+                    line-height: 18px;
+                    align-items: center;
+                    text-align: center;
+                    color: #faf3f3;" onclick="check() " id="demo">
+                Send
+            </button>
+
+
+
+
+
+        </div>
+    </div>
+
+</body>
+
+<script>
+
+    function check() {
+        var Name = document.getElementById("Name").value;
+        var Email = document.getElementById("Email").value;
+        var Subject = document.getElementById("Subject").value;
+        var Details = document.getElementById("Details").value;
+
+
+        if (Name != "" && Email != "" && Subject != "" && Details != "") {
+            window.location.href = "index-logedin.html";
+        } else {
+            alert("please fill required inputs ");
+        }
+    }
+
+
+
+
+
+
+</script>
+
+</html>
