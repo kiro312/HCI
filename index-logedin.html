@@ -5,6 +5,7 @@
     <link href="sidebars.css" rel="stylesheet" />
     <link href="/bootstrap/bootstrap.min.css" rel="stylesheet" />
     <script src="sidebars.js"></script>
+    <script src="scripts.js"></script>
     <script src="/bootstrap/bootstrap.bundle.min.js"></script>
   </head>
 
@@ -12,6 +13,25 @@
     <header>
       <div>
         <div style="font-size: 48px; line-height: 40px">HIS</div>
+      </div>
+      <div>
+        <a href="contact.html"
+          ><button
+            style="
+              background-color: white;
+              font-size: 20px;
+              line-height: 28px;
+              border-color: rgba(27, 78, 163, 0.2);
+              box-shadow: 0px 2px 4px rgba(27, 78, 163, 0.2),
+                0px 4px 8px rgba(41, 121, 255, 0.2);
+              border-radius: 4px;
+              padding: 8px 12px;
+              color: #2264d1;
+            "
+          >
+            Conatct Us
+          </button></a
+        >
       </div>
       <a href="index.html">
         <button
@@ -58,6 +78,14 @@
           My Cart
         </button></a
       >
+      <a href="" onclick="points()"
+        ><img
+          src="/assets/points_zero.png"
+          class="rounded-circle"
+          alt="Cinque Terre"
+          height="70"
+          width="70"
+      /></a>
       <a href="profile.html"
         ><img
           src="/assets/profile.webp"
@@ -97,9 +125,21 @@
           </button>
           <div class="collapse show" id="home-collapse">
             <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-              <li><a href="#" class="link-dark rounded">sub-category</a></li>
-              <li><a href="#" class="link-dark rounded">sub-category</a></li>
-              <li><a href="#" class="link-dark rounded">sub-category</a></li>
+              <li>
+                <a href="category1.html" class="link-dark rounded"
+                  >sub-category</a
+                >
+              </li>
+              <li>
+                <a href="category2.html" class="link-dark rounded"
+                  >sub-category</a
+                >
+              </li>
+              <li>
+                <a href="category3.html" class="link-dark rounded"
+                  >sub-category</a
+                >
+              </li>
             </ul>
           </div>
         </li>
@@ -114,10 +154,21 @@
           </button>
           <div class="collapse" id="dashboard-collapse">
             <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-              <li><a href="#" class="link-dark rounded">sub-category</a></li>
-              <li><a href="#" class="link-dark rounded">sub-category</a></li>
-              <li><a href="#" class="link-dark rounded">sub-category</a></li>
-              <li><a href="#" class="link-dark rounded">sub-category</a></li>
+              <li>
+                <a href="category1.html" class="link-dark rounded"
+                  >sub-category</a
+                >
+              </li>
+              <li>
+                <a href="category2.html" class="link-dark rounded"
+                  >sub-category</a
+                >
+              </li>
+              <li>
+                <a href="category3.html" class="link-dark rounded"
+                  >sub-category</a
+                >
+              </li>
             </ul>
           </div>
         </li>
@@ -132,10 +183,21 @@
           </button>
           <div class="collapse" id="orders-collapse">
             <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-              <li><a href="#" class="link-dark rounded">sub-category</a></li>
-              <li><a href="#" class="link-dark rounded">sub-category</a></li>
-              <li><a href="#" class="link-dark rounded">sub-category</a></li>
-              <li><a href="#" class="link-dark rounded">sub-category</a></li>
+              <li>
+                <a href="category1.html" class="link-dark rounded"
+                  >sub-category</a
+                >
+              </li>
+              <li>
+                <a href="category2.html" class="link-dark rounded"
+                  >sub-category</a
+                >
+              </li>
+              <li>
+                <a href="category3.html" class="link-dark rounded"
+                  >sub-category</a
+                >
+              </li>
             </ul>
           </div>
         </li>
@@ -316,6 +378,10 @@
           <a href="item.html">
             <button class="add-to-cart">view product</button>
           </a>
+          <br />
+        </div>
+        <div>
+          <button onclick="addToCart()" class="add-to-cart">Add product</button>
         </div>
       </div>
 
@@ -340,6 +406,9 @@
             <button class="add-to-cart">view product</button>
           </a>
         </div>
+        <div>
+          <button onclick="addToCart()" class="add-to-cart">Add product</button>
+        </div>
       </div>
 
       <div class="item">
@@ -363,6 +432,9 @@
             <button class="add-to-cart">view product</button>
           </a>
         </div>
+        <div>
+          <button onclick="addToCart()" class="add-to-cart">Add product</button>
+        </div>
       </div>
       <div class="item">
         <img src="/assets/item_4.jpeg" class="item-image" />
@@ -384,6 +456,9 @@
           <a href="item.html">
             <button class="add-to-cart">view product</button>
           </a>
+        </div>
+        <div>
+          <button onclick="addToCart()" class="add-to-cart">Add product</button>
         </div>
       </div>
       <div class="item">
@@ -407,6 +482,9 @@
             <button class="add-to-cart">view product</button>
           </a>
         </div>
+        <div>
+          <button onclick="addToCart()" class="add-to-cart">Add product</button>
+        </div>
       </div>
       <div class="item">
         <img src="/assets/item_6.jpeg" class="item-image" />
@@ -428,6 +506,9 @@
           <a href="item.html">
             <button class="add-to-cart">view product</button>
           </a>
+        </div>
+        <div>
+          <button onclick="addToCart()" class="add-to-cart">Add product</button>
         </div>
       </div>
       <div class="item">
@@ -451,6 +532,9 @@
             <button class="add-to-cart">view product</button>
           </a>
         </div>
+        <div>
+          <button onclick="addToCart()" class="add-to-cart">Add product</button>
+        </div>
       </div>
       <div class="item">
         <img src="/assets/item_8.jpeg" class="item-image" />
@@ -470,6 +554,9 @@
           <img src="/assets/star-half.png" />
           4.05
           <button class="add-to-cart">view product</button>
+        </div>
+        <div>
+          <button onclick="addToCart()" class="add-to-cart">Add product</button>
         </div>
       </div>
     </div>

@@ -5,6 +5,7 @@
     <link href="/bootstrap/bootstrap.min.css" rel="stylesheet" />
     <link href="/reg_style.css" rel="stylesheet" />
     <script src="/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="scripts.js"></script>
   </head>
 
   <body>
@@ -89,7 +90,7 @@
       />
       <input
         type="checkbox"
-        id="PPass"
+        id="checkPass"
         class="checkBox"
         name="PPass"
         value="Agree"
@@ -97,10 +98,10 @@
       /><br />
       <br />
       <div style="text-align: center; justify-content: center">
-        <a href="index-logedin.html">
-          <button value="Register" class="Register">Register</button>
-        </a>
+        <button onclick="register()" class="Register">Register</button>
       </div>
+      <br />
+      <br />
     </div>
   </body>
 </html>
