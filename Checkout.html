@@ -1,21 +1,22 @@
 <html>
-
-<head>
+  <head>
     <title>HIS</title>
     <link href="style.css" rel="stylesheet" />
     <link href="sidebars.css" rel="stylesheet" />
     <link href="/bootstrap/bootstrap.min.css" rel="stylesheet" />
+    <link href="checkout.css" rel="stylesheet" />
     <script src="sidebars.js"></script>
     <script src="/bootstrap/bootstrap.bundle.min.js"></script>
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <div>
-            <div style="font-size: 48px; line-height: 40px">HIS</div>
-        </div>
-        <a href="index.html">
-            <button style="
+      <div>
+        <div style="font-size: 48px; line-height: 40px">HIS</div>
+      </div>
+      <a href="index.html">
+        <button
+          style="
             background-color: white;
             font-size: 20px;
             line-height: 28px;
@@ -25,15 +26,24 @@
             border-radius: 4px;
             padding: 8px 12px;
             color: #2264d1;
-          ">
-                Logout
-            </button></a>
+          "
+        >
+          Logout
+        </button></a
+      >
 
-        <div>
-            <input style="width: 500px" class="form-control" type="text" placeholder="Search" aria-label="Search" />
-        </div>
-        <a href="cart.html">
-            <button style="
+      <div>
+        <input
+          style="width: 500px"
+          class="form-control"
+          type="text"
+          placeholder="Search"
+          aria-label="Search"
+        />
+      </div>
+      <a href="cart.html">
+        <button
+          style="
             background-color: white;
             font-size: 20px;
             line-height: 28px;
@@ -44,14 +54,23 @@
             padding: 8px 12px;
             color: #2264d1;
             margin-right: 30px;
-          ">
-                My Cart
-            </button></a>
-        <a href="profile.html"><img src="/assets/profile.webp" class="rounded-circle" alt="Cinque Terre" height="70"
-                width="70" /></a>
+          "
+        >
+          My Cart
+        </button></a
+      >
+      <a href="profile.html"
+        ><img
+          src="/assets/profile.webp"
+          class="rounded-circle"
+          alt="Cinque Terre"
+          height="70"
+          width="70"
+      /></a>
     </header>
     <div class="flex-shrink-0 p-3 bg-white" style="width: 280px">
-        <div style="
+      <div
+        style="
           color: #2264d1;
           border: 1px solid #9dc2ff;
           border-radius: 8px;
@@ -62,191 +81,257 @@
           line-height: 150%;
           margin-bottom: 30px;
           justify-content: space-between;
-        ">
-            <img src="/assets/filter-variant.png" style="margin-right: 10px" />
-            Departments
-        </div>
-        <ul class="list-unstyled ps-0">
-            <li class="mb-1">
-                <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse"
-                    data-bs-target="#home-collapse" aria-expanded="true">
-                    Category 1
-                </button>
-                <div class="collapse show" id="home-collapse">
-                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                        <li><a href="#" class="link-dark rounded">sub-category</a></li>
-                        <li><a href="#" class="link-dark rounded">sub-category</a></li>
-                        <li><a href="#" class="link-dark rounded">sub-category</a></li>
-                    </ul>
-                </div>
-            </li>
-            <li class="mb-1">
-                <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse"
-                    data-bs-target="#dashboard-collapse" aria-expanded="false">
-                    Category 2
-                </button>
-                <div class="collapse" id="dashboard-collapse">
-                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                        <li><a href="#" class="link-dark rounded">sub-category</a></li>
-                        <li><a href="#" class="link-dark rounded">sub-category</a></li>
-                        <li><a href="#" class="link-dark rounded">sub-category</a></li>
-                        <li><a href="#" class="link-dark rounded">sub-category</a></li>
-                    </ul>
-                </div>
-            </li>
-            <li class="mb-1">
-                <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse"
-                    data-bs-target="#orders-collapse" aria-expanded="false">
-                    Category 3
-                </button>
-                <div class="collapse" id="orders-collapse">
-                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                        <li><a href="#" class="link-dark rounded">sub-category</a></li>
-                        <li><a href="#" class="link-dark rounded">sub-category</a></li>
-                        <li><a href="#" class="link-dark rounded">sub-category</a></li>
-                        <li><a href="#" class="link-dark rounded">sub-category</a></li>
-                    </ul>
-                </div>
-            </li>
-        </ul>
-
-        <div style="
-          color: #2264d1;
-          border: 1px solid #9dc2ff;
-          border-radius: 8px;
-          align-items: center;
-          text-align: center;
-          font-weight: 700;
-          font-size: 24px;
-          line-height: 150%;
-          margin-bottom: 30px;
-          justify-content: space-between;
-        ">
-            <img src="/assets/filter-variant.png" style="margin-right: 10px" />
-            Filters
-        </div>
-
+        "
+      >
+        <img src="/assets/filter-variant.png" style="margin-right: 10px" />
+        Departments
+      </div>
+      <ul class="list-unstyled ps-0">
         <li class="mb-1">
-            <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse"
-                data-bs-target="#filter-collapse" aria-expanded="false">
-                Filter
-            </button>
-            <div class="collapse" id="filter-collapse">
-                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small" style="margin-left: 20px">
-                    <li style="
-                display: flex;
-                flex-direction: row;
-                align-items: center;
-                padding: 0px;
-                gap: 8px;
-
-                width: 167px;
-                height: 40px;
-              ">
-                        <input style="width: 18px; height: 18px; background: #dadada" class="link-dark rounded"
-                            type="checkbox" id="Recommended" /><label for="Recommended">Recommended</label><br />
-                    </li>
-
-                    <li style="
-                display: flex;
-                flex-direction: row;
-                align-items: center;
-                padding: 0px;
-                gap: 8px;
-
-                width: 167px;
-                height: 40px;
-              ">
-                        <input style="width: 18px; height: 18px; background: #dadada" class="link-dark rounded"
-                            type="checkbox" id="Recently-Added" /><label for="Recently-Added">Recently
-                            Added</label><br />
-                    </li>
-
-                    <li style="
-                display: flex;
-                flex-direction: row;
-                align-items: center;
-                padding: 0px;
-                gap: 8px;
-
-                width: 167px;
-                height: 40px;
-              ">
-                        <input style="width: 18px; height: 18px; background: #dadada" class="link-dark rounded"
-                            type="checkbox" id="Expiring-Soon" /><label for="Expiring-Soon">Expiring Soon</label><br />
-                    </li>
-
-                    <li style="
-                display: flex;
-                flex-direction: row;
-                align-items: center;
-                padding: 0px;
-                gap: 8px;
-
-                width: 167px;
-                height: 40px;
-              ">
-                        <input style="width: 18px; height: 18px; background: #dadada" class="link-dark rounded"
-                            type="checkbox" id="Most-Rated" /><label for="Most-Rated">Most Rated</label><br />
-                    </li>
-
-                    <li style="
-                display: flex;
-                flex-direction: row;
-                align-items: center;
-                padding: 0px;
-                gap: 8px;
-
-                width: 167px;
-                height: 40px;
-              ">
-                        <input style="width: 18px; height: 18px; background: #dadada" class="link-dark rounded"
-                            type="checkbox" id="Price1" /><label for="Price1">Price: Low → High</label><br />
-                    </li>
-                    <li style="
-                display: flex;
-                flex-direction: row;
-                align-items: center;
-                padding: 0px;
-                gap: 8px;
-
-                width: 167px;
-                height: 40px;
-              ">
-                        <input style="width: 18px; height: 18px; background: #dadada" class="link-dark rounded"
-                            type="checkbox" id="Price2" /><label for="Price2">Price: High → Low</label><br />
-                    </li>
-                </ul>
-            </div>
+          <button
+            class="btn btn-toggle align-items-center rounded collapsed"
+            data-bs-toggle="collapse"
+            data-bs-target="#home-collapse"
+            aria-expanded="true"
+          >
+            Category 1
+          </button>
+          <div class="collapse show" id="home-collapse">
+            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+              <li><a href="#" class="link-dark rounded">sub-category</a></li>
+              <li><a href="#" class="link-dark rounded">sub-category</a></li>
+              <li><a href="#" class="link-dark rounded">sub-category</a></li>
+            </ul>
+          </div>
         </li>
-    </div>
+        <li class="mb-1">
+          <button
+            class="btn btn-toggle align-items-center rounded collapsed"
+            data-bs-toggle="collapse"
+            data-bs-target="#dashboard-collapse"
+            aria-expanded="false"
+          >
+            Category 2
+          </button>
+          <div class="collapse" id="dashboard-collapse">
+            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+              <li><a href="#" class="link-dark rounded">sub-category</a></li>
+              <li><a href="#" class="link-dark rounded">sub-category</a></li>
+              <li><a href="#" class="link-dark rounded">sub-category</a></li>
+              <li><a href="#" class="link-dark rounded">sub-category</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="mb-1">
+          <button
+            class="btn btn-toggle align-items-center rounded collapsed"
+            data-bs-toggle="collapse"
+            data-bs-target="#orders-collapse"
+            aria-expanded="false"
+          >
+            Category 3
+          </button>
+          <div class="collapse" id="orders-collapse">
+            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+              <li><a href="#" class="link-dark rounded">sub-category</a></li>
+              <li><a href="#" class="link-dark rounded">sub-category</a></li>
+              <li><a href="#" class="link-dark rounded">sub-category</a></li>
+              <li><a href="#" class="link-dark rounded">sub-category</a></li>
+            </ul>
+          </div>
+        </li>
+      </ul>
 
-    <div class="content">
+      <div
+        style="
+          color: #2264d1;
+          border: 1px solid #9dc2ff;
+          border-radius: 8px;
+          align-items: center;
+          text-align: center;
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 150%;
+          margin-bottom: 30px;
+          justify-content: space-between;
+        "
+      >
+        <img src="/assets/filter-variant.png" style="margin-right: 10px" />
+        Filters
+      </div>
 
-        <div style="
-        position: absolute;
-        top: 50%;
-                    left: 50%;
-                     ">
-            <div>
+      <li class="mb-1">
+        <button
+          class="btn btn-toggle align-items-center rounded collapsed"
+          data-bs-toggle="collapse"
+          data-bs-target="#filter-collapse"
+          aria-expanded="false"
+        >
+          Filter
+        </button>
+        <div class="collapse" id="filter-collapse">
+          <ul
+            class="btn-toggle-nav list-unstyled fw-normal pb-1 small"
+            style="margin-left: 20px"
+          >
+            <li
+              style="
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                padding: 0px;
+                gap: 8px;
 
-                <label for="file">Downloading progress:</label>
-                <progress id="file" value="32" max="100"> 32% </progress>
-            </div>
+                width: 167px;
+                height: 40px;
+              "
+            >
+              <input
+                style="width: 18px; height: 18px; background: #dadada"
+                class="link-dark rounded"
+                type="checkbox"
+                id="Recommended"
+              /><label for="Recommended">Recommended</label><br />
+            </li>
+
+            <li
+              style="
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                padding: 0px;
+                gap: 8px;
+
+                width: 167px;
+                height: 40px;
+              "
+            >
+              <input
+                style="width: 18px; height: 18px; background: #dadada"
+                class="link-dark rounded"
+                type="checkbox"
+                id="Recently-Added"
+              /><label for="Recently-Added">Recently Added</label><br />
+            </li>
+
+            <li
+              style="
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                padding: 0px;
+                gap: 8px;
+
+                width: 167px;
+                height: 40px;
+              "
+            >
+              <input
+                style="width: 18px; height: 18px; background: #dadada"
+                class="link-dark rounded"
+                type="checkbox"
+                id="Expiring-Soon"
+              /><label for="Expiring-Soon">Expiring Soon</label><br />
+            </li>
+
+            <li
+              style="
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                padding: 0px;
+                gap: 8px;
+
+                width: 167px;
+                height: 40px;
+              "
+            >
+              <input
+                style="width: 18px; height: 18px; background: #dadada"
+                class="link-dark rounded"
+                type="checkbox"
+                id="Most-Rated"
+              /><label for="Most-Rated">Most Rated</label><br />
+            </li>
+
+            <li
+              style="
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                padding: 0px;
+                gap: 8px;
+
+                width: 167px;
+                height: 40px;
+              "
+            >
+              <input
+                style="width: 18px; height: 18px; background: #dadada"
+                class="link-dark rounded"
+                type="checkbox"
+                id="Price1"
+              /><label for="Price1">Price: Low → High</label><br />
+            </li>
+            <li
+              style="
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                padding: 0px;
+                gap: 8px;
+
+                width: 167px;
+                height: 40px;
+              "
+            >
+              <input
+                style="width: 18px; height: 18px; background: #dadada"
+                class="link-dark rounded"
+                type="checkbox"
+                id="Price2"
+              /><label for="Price2">Price: High → Low</label><br />
+            </li>
+          </ul>
         </div>
-        <a href="index-logedin.html"> <button style="color: #2264d1;
-            font-style: normal;
-            font-weight: 500;
-            font-size: 14px;
-            line-height: 143%;
-            background-color: white;
-            border: 1px solid #9dc2ff;
-            border-radius: 4px;
-            width: 93px;
-            height: 32px;">Return to Main page</button> </a>
-
+      </li>
     </div>
-
-</body>
-
+    <a href="index-logedin.html">
+      <button
+        style="
+          position: absolute;
+          top: 100px;
+          left: 300px;
+          color: #2264d1;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 143%;
+          background-color: white;
+          border: 1px solid #9dc2ff;
+          border-radius: 4px;
+          width: 150px;
+          height: 32px;
+        "
+      >
+        Return to Main page
+      </button>
+    </a>
+    <div class="content" style="position: absolute; top: 50%; left: 50%">
+      <div>
+        Your Order is being deliverd to your address
+        <br />
+        <br />
+        <div class="progress blue">
+          <span class="progress-left">
+            <span class="progress-bar"></span>
+          </span>
+          <span class="progress-right">
+            <span class="progress-bar"></span>
+          </span>
+          <div class="progress-value">90%</div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
